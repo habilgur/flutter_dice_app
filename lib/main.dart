@@ -93,11 +93,8 @@ class _DiceBodyState extends State<DiceBody> {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
                   FloatingActionButton(
-                    splashColor: Colors.red,
-                    child: RotatedBox(
-                      child: Text("Salla"),
-                      quarterTurns: 2,
-                    ),
+                    splashColor: Colors.yellow,
+                    child: Text("Salla"),
                     onPressed: () {
                       rollDices();
                     },
