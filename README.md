@@ -1,16 +1,5 @@
-# flutter_dice_app
-
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Image(image:Assest.Image()) yerine daha kısa olan  Image.assest (url) kullanılablir.
+Expanded(); atası mutlaka Row,Column yada Flex olmalıdır.
+Sarı-Siyah Alan hatası: Expanded ile sarılan child elemanları ne kadar büyük olursa olsunlar parentin alanına uyacağının garantisini verirler.
+Expanded(flex: özelliği ile ait oldukları parent alanı, Expanded edilmiş elemanlar arasında verilen değerler oranında paylaştırılır.
+Expanded(flex: 1) ve Expanded(flex: 3) alanı %33 ve %66 oranında paylaştırır.
